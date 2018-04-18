@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/lab3_4.dir/main.cpp.o CMakeFiles/lab3_4.dir/listLogic.cpp.o CMakeFiles/lab3_4.dir/MakeFile.cpp.o CMakeFiles/lab3_4.dir/menu.cpp.o  -o lab3_4 
