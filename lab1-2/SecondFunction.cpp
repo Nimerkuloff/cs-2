@@ -15,9 +15,10 @@
 using namespace std;
 
 
-int SortDataset(char *filename) {
+int SortDataset(string filename) {
     ifstream openFile;
     openFile.open(filename);
+
     string line;
     //Файл не создан (не открыт) - возвращаемся в место вызова функции
     if (!openFile.is_open()) {
@@ -32,26 +33,27 @@ int SortDataset(char *filename) {
     openFile.clear();
     openFile.seekg(0,
                    ios::beg);
-    int *numbers = new int[count];
 
+    int *numbers = new int[count];
     for (int i = 0; i < count; i++) {
         openFile >> hex >> numbers[i];
     }
     openFile.close();
 
-    int comparisons= HeapSort(numbers, count);
+    int comparisons = HeapSort(numbers, count);
 
-    string old_filename(filename);
+    string old_filename = filename;
     string new_filename = old_filename + ".sort";
     ofstream makeFile(new_filename);
     if (makeFile.is_open() == 0) {
         cout << "Error opening .sort file" << endl;
         return 0;
     }
-    
+
     for (int i = 0; i < count; i++) {
-        makeFile <<hex<<numbers[i] << endl;
+        makeFile << hex << numbers[i] << endl;
     }
+
     makeFile.close();
     return comparisons;
 }

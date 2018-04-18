@@ -4,14 +4,10 @@
 
 #ifndef LAB1_2_SECONDFUNCTION_H
 #define LAB1_2_SECONDFUNCTION_H
-#include <iostream>
-#include <cstdio>
-#include <iostream>
-#include <fstream>
-#include <string.h>
-using namespace std;
 
-int SortDataset (char *);
+#include "FirstFunction.h"
+
+int SortDataset (string);
 
 
 #endif //LAB1_2_SECONDFUNCTION_H

@@ -15,7 +15,7 @@
 
 #include "FirstFunction.h"
 #include "SecondFunction.h"
-
+#include "ThirdFunction.h"
 
 using namespace std;
 
@@ -29,7 +29,11 @@ int main() {
     cin >> strCount;
 
     GenerateDataset(filename, strCount);
-    cout<<"Qty of comparisons"<<endl<<SortDataset(filename);
+    int comparisonsQty = SortDataset(filename);
+    cout<<"Qty of comparisons"<<endl<< comparisonsQty<<endl;
+
+    ExportResults();
+
     return 0;
 }
 

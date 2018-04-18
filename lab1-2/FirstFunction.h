@@ -7,12 +7,12 @@
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
-#include <iostream>
 #include <ctime>
 #include <fstream>
-
+#include <string.h>
+#include <math.h>
 using namespace std;
 
-void GenerateDataset(char *, int);
+void GenerateDataset(string, int);
 
 #endif //LAB1_2_FIRSTFUNCTION_H

@@ -1,12 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab1_2.dir/main.cpp.obj"
-  "CMakeFiles/lab1_2.dir/FirstFunction.cpp.obj"
-  "CMakeFiles/lab1_2.dir/SecondFunction.cpp.obj"
-  "CMakeFiles/lab1_2.dir/HeapSort.cpp.obj"
+  "CMakeFiles/lab1_2.dir/main.cpp.o"
+  "CMakeFiles/lab1_2.dir/FirstFunction.cpp.o"
+  "CMakeFiles/lab1_2.dir/SecondFunction.cpp.o"
+  "CMakeFiles/lab1_2.dir/HeapSort.cpp.o"
+  "CMakeFiles/lab1_2.dir/ThirdFunction.cpp.o"
   "lab1_2.pdb"
-  "lab1_2.exe"
-  "lab1_2.exe.manifest"
-  "liblab1_2.dll.a"
+  "lab1_2"
 )
 
 # Per-language clean rules from dependency scanning.

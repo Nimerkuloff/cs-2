@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/FirstFunction.cpp" "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/FirstFunction.cpp.obj"
-  "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/HeapSort.cpp" "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/HeapSort.cpp.obj"
-  "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/SecondFunction.cpp" "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/SecondFunction.cpp.obj"
-  "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/main.cpp" "C:/Users/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/main.cpp.obj"
+  "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/FirstFunction.cpp" "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/FirstFunction.cpp.o"
+  "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/HeapSort.cpp" "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/HeapSort.cpp.o"
+  "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/SecondFunction.cpp" "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/SecondFunction.cpp.o"
+  "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/ThirdFunction.cpp" "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/ThirdFunction.cpp.o"
+  "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/main.cpp" "/home/nimerkuloff/CLionProjects/cs-2/lab1-2/cmake-build-debug/CMakeFiles/lab1_2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
